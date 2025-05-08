@@ -1,0 +1,42 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>andromeda-theme</id>
+    <version>1.0.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Andromeda Theme</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor>voximity</vendor>
+
+    <idea-version since-build="242"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description>
+        <![CDATA[
+        Loose port of <a href="https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda">
+        Andromeda</a>, a VS Code theme. Attempts to keep most colors unchanged. You may need to tweak the editor color
+        scheme.
+        ]]>
+    </description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+    Initial release of the theme.
+  ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="andromeda" path="/theme/andromeda.theme.json"/>
+        <themeProvider id="andromeda_borderless" path="/theme/andromeda_borderless.theme.json"/>
+        <bundledColorScheme id="andromeda_scheme" path="scheme/andromeda"/>
+    </extensions>
+</idea-plugin>

@@ -1,0 +1,75 @@
+{
+  "name": "Andromeda Borderless",
+  "author": "voximity",
+  "dark": true,
+  "editorScheme": "andromeda_scheme",
+  "colors": {
+    "primaryRed": "#821010",
+    "bg": "#23262e",
+    "bg2": "#2b303b",
+    "bgBorder": "#363c49",
+    "accent": "#00e8c6",
+    "fg": "#d5ced9",
+    "transparent": "#00000000"
+  },
+  "ui": {
+    "Borders.color": "bg",
+    "*": {
+      "background": "bg",
+      "foreground": "fg"
+    },
+    "Button.background": "bg",
+    "Panel": {
+      "background": "bg"
+    },
+    "EditorTabs": {
+      "background": "bg",
+      "underlinedTabBackground": "bg",
+      "underlinedTabForeground": "accent",
+      "underlineColor": "accent",
+      "underlineHeight": 1
+    },
+    "NotificationsToolwindow": {
+      "newNotification.background": "bg2"
+    },
+    "Label.background": "bg",
+    "CheckBox.background": "bg",
+    "Viewport.background": "bg",
+    "ToolTip": {
+      "background": "bg"
+    },
+    "MainToolbar": {
+      "inactiveBackground": "bg",
+      "Icon.insets": "5,5,5,5"
+    },
+    "ToolWindow": {
+      "background": "bg",
+      "Button.selectedForeground": "accent",
+      "Button.selectedBackground": "#5c6164",
+      "Header.inactiveBackground": "bg",
+      "HeaderTab.selectedInactiveBackground": "bg"
+    },
+    "Tree": {
+      "rowHeight": "24",
+      "selectionForeground": "accent",
+      "selectionBackground": "bgBorder",
+      "selectionInactiveBackground": "bgBorder",
+      "border": "8,8,8,8"
+    },
+    "List": {
+      "rowHeight": "24",
+      "background": "#20232a",
+      "selectionBackground": "#2f333d",
+      "selectionForeground": "accent",
+      "hoverBackground": "#23262e",
+      "selectionInactiveBackground": "#23262e",
+      "hoverInactiveBackground": "#23262e",
+      "Button.hoverBackground": "#23262e"
+    },
+    "Popup": {
+      "borderColor": "bgBorder",
+      "background": "#20232a",
+      "Advertiser.background": "#20232a"
+    }
+  }
+}
