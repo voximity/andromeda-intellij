@@ -37,6 +37,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="andromeda" path="/theme/andromeda.theme.json"/>
         <themeProvider id="andromeda_borderless" path="/theme/andromeda_borderless.theme.json"/>
-        <bundledColorScheme id="andromeda_scheme" path="scheme/andromeda"/>
+        <bundledColorScheme id="andromeda_scheme" path="scheme/andromeda_scheme"/>
     </extensions>
 </idea-plugin>

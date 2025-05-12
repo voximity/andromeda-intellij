@@ -2,9 +2,9 @@
   "name": "Andromeda",
   "author": "voximity",
   "dark": true,
-  "editorScheme": "andromeda_scheme",
+  "nameKey": "andromeda_theme",
+  "editorScheme": "/scheme/andromeda_scheme.xml",
   "colors": {
-    "primaryRed": "#821010",
     "bg": "#23262e",
     "bg2": "#2b303b",
     "bgBorder": "#363c49",
